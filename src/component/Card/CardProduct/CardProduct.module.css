@@ -1,0 +1,60 @@
+.product{
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #3CB371;
+}
+
+.lineInfoProduct{
+    display: grid;
+    grid-template-columns: 80px 100px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.lineButton{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 20px;
+    padding-bottom: 10px;
+}
+
+.buttonDel{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:  rgb(224, 84, 84);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.buttonChange{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #105481;
+    cursor: pointer;
+}
+
+.buttonMore{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+    margin-left: 5px;
+    width: 185px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+p{
+    color: white;
+}

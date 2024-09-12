@@ -1,0 +1,55 @@
+.body{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.checkBox{
+    cursor: pointer;
+}
+
+.lineTypeProduct{
+    display: grid;
+    grid-template-columns: 30px 200px;
+}
+
+.lineSelectTypeProduct{
+    display: grid;
+    grid-template-columns: 30px 200px;
+    padding-left: 20px;
+}
+
+.lineInput{
+    display: grid;
+    grid-template-columns: 100px 30px 10px 30px 10px;
+    padding-top: 5px;
+}
+
+.buttonShowFilter{
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #105481;
+}
+
+.buttonClearFilter{
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(224, 84, 84);
+    margin-left: 10px;
+}
